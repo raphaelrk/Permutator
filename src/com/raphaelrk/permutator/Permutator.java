@@ -34,7 +34,7 @@ public class Permutator {
         String[] currStringArr = currString.split(" ");
 
         if(currStringArr.length > wholeStringArr.length) {
-            System.out.println(currString);
+            System.out.println(currString.substring(1)); // substring because the first index in currString is " "
             return;
         }
         for(int i = 0; i < wholeStringArr.length; i++) {
